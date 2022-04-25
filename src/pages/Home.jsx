@@ -1,7 +1,6 @@
 import React from 'react'
 import reactDom from 'react-dom';
 import { Link } from 'react-router-dom';
-import FeaturedRooms from '../components/FeaturedRooms';
 import Slider from '../components/slider';
 import Announcement from '../components/Announce';
 import About from '../components/about.jsx';

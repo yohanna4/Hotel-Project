@@ -1,11 +1,8 @@
 import React from 'react'
-import Banner from '../components/Banner';
 import { Link } from 'react-router-dom';
-import RoomsContainer from '../components/RoomsContainer';
-import hotel from '../images/room-6.jpeg';
+import hotel from '../images/room-2.jpeg';
 import Accomodation from '../components/accomodation';
 import AllRooms from '../components/allRooms';
-import BookRoom from '../components/bookRoom';
 const Rooms = () => {
     return (
     <div >

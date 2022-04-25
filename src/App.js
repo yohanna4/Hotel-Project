@@ -6,7 +6,6 @@ import Home from './pages/Home';
 import Rooms from './pages/Rooms';
 import Error from './pages/Error';
 import Navbar from './components/Navbar';
-import About from './pages/About';
 import Footer from './components/Footer';
 import Contact from './pages/Contact';
 import Gallery from './pages/Gallery';
@@ -22,7 +21,6 @@ function App() {
         <Navbar/>
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route exact path="/about" component={About} />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/rooms/" component={Rooms}/>
           <Route exact path="/gallery" component={Gallery} />

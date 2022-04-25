@@ -1,6 +1,4 @@
-import React, { Component } from 'react'
-import Room from './Room';
-import Title from './Title'; 
+import React, { Component } from 'react' 
 import background from '../images/background (2).jpg';
 {/* <div class="img-area"> <img  src={pic3} alt="" /></div>
                 <h3>Mason Doe</h3>

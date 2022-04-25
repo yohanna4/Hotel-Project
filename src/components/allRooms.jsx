@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import Room from './Room';
 import Title from './Title'; 
 
 import pic1 from '../images/Room (1).jpeg';

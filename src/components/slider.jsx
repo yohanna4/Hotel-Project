@@ -1,5 +1,4 @@
-import React, { Component } from 'react'
-import Room from './Room';
+import React, { Component } from 'react' 
 import Title from './Title'; 
 import pic1 from '../images/slide (2).jpeg';
 import pic2 from '../images/slide (3).jpeg';
