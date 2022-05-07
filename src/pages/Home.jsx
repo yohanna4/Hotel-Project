@@ -7,11 +7,14 @@ import About from '../components/about.jsx';
 import ContactFrom from '../components/contact.js'
 import Service from '../components/Service.jsx'
 import Testimonial from '../components/testimonial'
+import Pricing from '../components/pricing'
+import FAQ from '../components/FAQ'
 
 // import Footer from '../components/footerr.js'
 
 import 'bootstrap/dist/css/bootstrap.css';
 export default function Home() {
+  
     return (
         < >
         <div className="home-body">
@@ -20,7 +23,10 @@ export default function Home() {
        
         <Service/> 
         <About/>
+        <div className="grey-line"></div>
+        <Pricing/>
         <Testimonial/>
+        <FAQ/>
         <ContactFrom/></div>
         </>
 

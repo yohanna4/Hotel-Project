@@ -12,6 +12,7 @@ jquery('nav').toggleClass('scrolled', jquery(this).scrollTop() > 0);
 })
 
 const Navbar = () => {
+   
     return (
     <>
        <nav className="navbar navbar-expand-sm bg-transparent  py-2 fixed-top">   {/*bg-transparent */}
@@ -25,7 +26,7 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item">
-                            <NavLink className="nav-link" activeClassName="active_class" exact to="/">Home</NavLink>
+                       <NavLink className="nav-link" activeClassName="active_class" exact to="/">Home</NavLink>
                         </li>
                         <li className="nav-item">
                             <NavLink className="nav-link" activeClassName="active_class" exact to="/rooms">Rooms</NavLink>

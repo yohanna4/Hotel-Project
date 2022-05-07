@@ -13,6 +13,7 @@ import Services from './pages/Services';
 import ScrollToTop from './components/ScrollToTop';
 
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import '../node_modules/swiper/swiper-bundle.min.css'
 function App() {
   return (
     <div className="App">

@@ -40,10 +40,10 @@ const Footer = () => {
 						<div class="widget_title">
 							<h4>Quick Links</h4>
 						</div>
-							<h6><a href="#">Rooms</a></h6>
-							<h6><a href="#">Services</a></h6>
-							<h6><a href="#">Gallery</a></h6>
-							<h6><a href="#">Contact</a></h6>
+							<h6><a href="/rooms">Rooms</a></h6>
+							<h6><a href="/service">Services</a></h6>
+							<h6><a href="/gallery">Gallery</a></h6>
+							<h6><a href="/contact">Contact</a></h6>
 					</div>
 				</div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
