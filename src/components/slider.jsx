@@ -28,7 +28,7 @@ export default class Slider  extends Component {
               <div class="carousel-item"  interval={200}>
                 <img class="d-block w-100" src={pic2} alt="Second slide"/>
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Welcome to</h5><h5> Kenenisa Hotel Plus</h5>
+                    <h5>Welcome to</h5><h5> Omega Hotel Plus</h5>
                 </div>
               </div>
               <div class="carousel-item" interval={200}>
